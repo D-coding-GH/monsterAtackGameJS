@@ -216,7 +216,7 @@ function healPlayerHandler() {
 //....loop through data stored in battlelog array on event by event basis
 function printLogHandler() {
 
-  let i = 0;//....
+  let i = 0;//....index starts at 0
   for (const logEntry of battleLog) {
     if ((!lastLoggedEntry && lastLoggedEntry !== 0) || lastLoggedEntry < i) {//...if statement uses variable lastLoggedEntry to create log event by event(when show log is pressed)
                                                                              //...allowing access to for in loop
